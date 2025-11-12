@@ -10,7 +10,7 @@ export default function DynamicCryptoIcon({
       height={24}
       style={{ verticalAlign: "middle" }}
       onError={(e) => {
-        (e.target as HTMLImageElement).src = "/tokens/default.svg"; // fallback if missing
+        (e.target as HTMLImageElement).src = "/tokens/Token.svg"; // fallback if missing
       }}
       {...props}
     />
