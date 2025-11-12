@@ -1,4 +1,3 @@
-import * as React from "react";
 import { CssBaseline } from "@mui/material";
 // import theme from "./theme";
 // import CurrencySwapForm from "./currency-swap-form";

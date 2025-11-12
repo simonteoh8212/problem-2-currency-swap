@@ -194,14 +194,14 @@ export default function CurrencySwapForm() {
   };
 
   const handleFromCurrencyChange = (
-    event: SyntheticEvent,
+    _event: SyntheticEvent,
     newValue: CryptoCurrency | null
   ) => {
     setFromCurrency(newValue);
   };
 
   const handleToCurrencyChange = (
-    event: SyntheticEvent,
+    _event: SyntheticEvent,
     newValue: CryptoCurrency | null
   ) => {
     setToCurrency(newValue);
